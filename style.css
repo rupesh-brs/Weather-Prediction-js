@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(bg.jpg);
+    margin: 5%;
+    display: grid;
+    grid-template-rows:auto;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    text-align:center;
+}
+.main-container{
+    display: grid;
+}
+.content{
+    margin-top: 10%;
+    
+}
+#search-id{
+    margin-top: 25%;
+    border: 2px solid;
+    padding:20px;
+    border-radius: 18px;
+    width: 70%;
+}
+
+
